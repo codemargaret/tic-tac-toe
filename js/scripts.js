@@ -139,5 +139,8 @@ $(document).ready(function() {
     arrayThree.splice(2,1,whoseTurnNow);
     didIwin();
   });
+  $('.playAgain').click(function(event){
+    location.href = location.href;
+  });
 
 });
