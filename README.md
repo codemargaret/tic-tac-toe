@@ -14,21 +14,17 @@ _{Just clone the repository and open the index.html page in a browser to use thi
 
 ## Specifications
 
-_{Behavior 1 (our program should handle):Taking a number from a user and returning a range from 1 to the users number
-  Input Example (When it receives):5
-  Output Example (It should return):1,2,3,4,5
+_{Behavior 1 (our program should handle):Player can pick to be x or o
+  Input Example (When it receives): click to X
+  Output Example (It should return):You are X, click to make a move
 
-  Behavior 2 (our program should handle):A number that divides by 3 with no remainder is replaced with the word "ping"
-  Input Example (When it receives):7
-  Output Example (It should return):1,2,ping,4,5,ping,7
+  Behavior 2 (our program should handle): If a player clicks on a box in the game board, an X or o appears.
+  Input Example (When it receives): click
+  Output Example (It should return): X (in the clicked area)
 
-  Behavior 3 (our program should handle):A number that divides by 5 with no remainder is replaced with the word "pong"
-  Input Example (When it receives):11
-  Output Example (It should return): 1,2,3,4,pong,6,7,8,9,pong,11
-
-  Behavior 4 (our program should handle):A number that divides by 15 with no remainder is replaced with the word "ping-pong"
-  Input Example (When it receives):31
-  Output Example (It should return):1,2,3,4,5,6,7,8,9,10,11,12,13,14,ping-pong,16,17,18,19,20,21,22,23,24,25,26,27,28,29,ping-pong,31}_
+  Behavior 3 (our program should handle): If there are 3 Xs or Os in a row, column or diagonally, say "You win!"
+  Input Example (When it receives): X X X
+  Output Example (It should return): You win!}_
 
 ## Known Bugs
 
