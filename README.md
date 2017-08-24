@@ -14,11 +14,11 @@ _{Just clone the repository and open the index.html page in a browser to use thi
 
 ## Specifications
 
-_{Behavior 1 (our program should handle):Player can pick to be x or o
+<!-- _{Behavior 1 (our program should handle):Player can pick to be x or o
   Input Example (When it receives): click to X
-  Output Example (It should return):You are X, click to make a move
+  Output Example (It should return):You are X, click to make a move -->
 
-  Behavior 2 (our program should handle): If a player clicks on a box in the game board, an X or o appears.
+  Behavior 2 (our program should handle): If a player clicks on a box in the game board, an X appears. It is now the next players turn
   Input Example (When it receives): click
   Output Example (It should return): X (in the clicked area)
 
