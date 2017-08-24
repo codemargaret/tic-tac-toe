@@ -1,6 +1,15 @@
-.theBox {
-  background-color: yellow; 
+.theSquare {
+  border-color: green;
+  border-width: thick;
+  border-style: solid;
+  height: 200px;
+  width: 150px;
+  float: center;
 }
+
+/*.theRow {
+  float: left;
+}*/
 
 /*.jumbotron {
   color: #379683;

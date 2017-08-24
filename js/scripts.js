@@ -35,4 +35,7 @@ $(document).ready(function() {
     player2.letterName(theX);
     console.log(player2.letter);
   });
+  $('#spot1').click(function(){
+    $('#spot1').text(player1.letter);
+  });
 });
