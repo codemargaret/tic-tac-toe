@@ -1,0 +1,65 @@
+.jumbotron {
+  color: #379683;
+  background-color: #05386B;
+}
+
+.jumbotron h1 {
+  margin-left: 100px;
+}
+
+body {
+  color: #05386B;
+  background-color: #379683;
+}
+
+button {
+  margin-top: 20px;
+  border-style: none;
+  color: #EDF5E1;
+  background-color: #05386B;
+  border-radius: 5px;
+}
+
+.well {
+  border-style: none;
+  text-align: center;
+}
+
+.p1 {
+  display: none;
+  background-color: #5CDB95;
+}
+
+.p2 {
+  display: none;
+  background-color: #8EE4Af;
+}
+
+.playerScores {
+  display: none;
+  background-color: #EDF5E1;
+}
+
+.computerPlayerScores {
+  display: none;
+  background-color: #EDF5E1;
+}
+
+.computerWins {
+  display: none;
+  background-color: #EDF5E1;
+}
+
+.playerOneWins {
+  display: none;
+  background-color: #EDF5E1;
+}
+
+.playerTwoWins {
+  display: none;
+  background-color: #EDF5E1;
+}
+
+.greeting {
+  background-color: #EDF5E1;
+}
