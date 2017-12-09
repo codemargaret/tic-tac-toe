@@ -1,45 +1,49 @@
-# _{Pig Dice}_
+# _Tic-Tac-Toe_
 
-#### _{The application allows the player to play against another player or the computer the classical game of pig dice a game where the dice is rolled often}, {August 18th 2017}_
+#### _This application allows two players to play tic-tac-toe, 08.24.2017_
 
-#### By _**{Dan Kiss & David Hale}**_
+#### By _**Dan Kiss & Margaret Berry**_
 
 ## Description
-
-_{There are 2 objects in this game, player1/player2 or player1/AI. Player 1 gets to role a 6 sided dice numbered 1 to 6. If the number rolled is 2,3,4,5,6 the player may "hold the number" or roll again. If they hold that value is added to their total score.}_
+_The first player automatically becomes X's. X's and Os appear on alternate clicks. An alert pops up if one player wins._
 
 ## Setup/Installation Requirements
+_Run the following commands in Terminal:_
 
-_{Just clone the repository and open the index.html page in a browser to use this}
+1. `$ git clone` [this repository](https://github.com/codemargaret/tic-tac-toe.git)
+2. `$ cd tic-tac-toe`
+3. `$ open index.html`
 
 ## Specifications
-
-<!-- _{Behavior 1 (our program should handle):Player can pick to be x or o
-  Input Example (When it receives): click to X
-  Output Example (It should return):You are X, click to make a move -->
-
-  Behavior 2 (our program should handle): If a player clicks on a box in the game board, an X appears. It is now the next players turn
-  Input Example (When it receives): click
-  Output Example (It should return): X (in the clicked area)
-
-  Behavior 3 (our program should handle): If there are 3 Xs or Os in a row, column or diagonally, say "You win!"
-  Input Example (When it receives): X X X
-  Output Example (It should return): You win!}_
+| Spec              | Input | Output |
+|-------------------|-------|--------|
+| If a player clicks on a box in the game board, an X appears.    | click 'Spot 3'     | x      |
+| When the next player clicks on a box, an O appears.    | click 'Spot 6'     | o      |
+| If there are 3 Xs or Os in a row, column or diagonally, an alert will appear saying "You win!    | X X X    | You win!      |
 
 ## Known Bugs
+* _The alerts for winner contain the column name instead of the player name._
+* _There is no alert for a tie game._
 
-_{None, could look nicer but no bugs}_
+## Project Goals
+_Get more comfortable writing more complex JavaScript applications._
+
+## Future Features
+_Add alerts that say which player wins, and alerts for tie games. Add more styling._
 
 ## Support and contact details
+_If you have any updates, questions, or suggestions please contact [Margaret] or make a contribution._
 
-_{Dan Kiss email me as needed at flowfast47@gmail.com}_
+[Margaret]: mailto:codeberry1@gmail.com
 
 ## Technologies Used
-
-_{HTML, Javascript(jquery), CSS(bootstrap)}_
+* _HTML_
+* _CSS_
+* _Bootstrap_
+* _JavaScript_
+* _jQuery_
 
 ### License
+*This software is licensed under the MIT license.*
 
-*{MIT License}*
-
-Copyright (c) 2017 **_{Dan Kiss}_**
+Copyright (c) 2017 **_Margaret Berry and Dan Kiss_**
